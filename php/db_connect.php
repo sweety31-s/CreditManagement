@@ -1,6 +1,6 @@
 <?php
 	//make connection with database
-	$link = mysqli_connect("localhost","root","","credit");
+	$link = mysqli_connect("db4free.net","sahil12","8073646866c","admin12");
 	// Check connection
 	if($link === false) {
     	die("ERROR: Could not connect. " . mysqli_connect_error());
